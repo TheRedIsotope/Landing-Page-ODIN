@@ -1,6 +1,23 @@
 * {
-    font: roboto
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-body {
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content:space-between;
+}
+ul {
+    display: flex;
+    color: white;
+    list-style: none;
+}
 
+img {
+    display: flex;
+    width: 200px;
+    height: auto;
+
+}
+.button {
+    background-color: #3882F6;
 }

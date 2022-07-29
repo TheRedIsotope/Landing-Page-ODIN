@@ -1,17 +1,45 @@
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto';
 }
 .header {
     background-color: #1F2937;
     display: flex;
     justify-content:space-between;
+    justify-content: space-around;
 }
 ul {
     display: flex;
     color: white;
     list-style: none;
 }
+li {
+    margin: 10px;
+}
 
+.opener {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+h1 {
+    color: white;
+}
+p {
+    color: white;
+    font-weight: lighter;
+}
+button {
+    background-color: #3882F6;
+    width: 90px;
+    height: auto;
+    border-radius: 5px;
+    border-color:#3882F6;
+    font: 'Roboto';
+    box-shadow: none;
+    color: white;
+
+}
 img {
     display: flex;
     width: 200px;

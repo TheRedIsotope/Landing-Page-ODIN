@@ -2,27 +2,36 @@
    font-family: 'Roboto', sans-serif;
 }
 
+body {
+   display: flex;
+   min-height: 20px;
+   flex-direction: column;
+}
+
 .header {
     background-color: #1F2937;
     display: flex;
+    flex-direction: row;
     justify-content:space-between;
     justify-content: space-around;
 }
-img {
-    display: flex;
-}
+
 ul {
     display: flex;
+    flex-direction: row;
     color: #E5E7EB;
     list-style: none;
 }
+
 li {
     margin:20px;
     font-size: 18px;
 }
+
 .opener {
     background-color: #1F2937;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     justify-items: center;
     padding-right: 200px;
@@ -30,21 +39,25 @@ li {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
 .box4 {
-    display: flex;
+   display: flex;
+   flex: 0 1 auto;
     height: 300px;
     width: auto;
-} /*There is a problem with this, it doesn't flex right. Doesn't shrink with window.*/
+} 
 
 h1 {
     font-style: extra-bold;
     font-size: 48px;
     color: #F9FAF8;
 }
+
 p {
     color: #E5E7EB;
     font-size: 18px;
 }
+
 button {
     background-color: #3882F6;
     width: 90px;
@@ -70,7 +83,8 @@ h2 {
 
 .illustration {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-evenly;
     justify-items: center;
     padding-right: 300px;
     padding-left: 300px;
@@ -79,6 +93,7 @@ h2 {
     font-style: light;
     font-size: large;
 }
+
  .logo img {
     display: flex;
     height: 200px;
